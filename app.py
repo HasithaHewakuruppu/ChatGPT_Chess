@@ -3,9 +3,6 @@ import openai
 import chess
 import chess.svg
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 # Initialize OpenAI API client with your key
 openai.api_key = os.environ.get('OPENAI_API_KEY')
